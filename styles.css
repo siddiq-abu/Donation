@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -306,6 +307,7 @@ h1,h2,h3,h4{
     background-color: white;
     color: orange;
     cursor: pointer;
+<<<<<<< HEAD
 }
 
 /* below are styles for the footer section */
@@ -395,4 +397,377 @@ input[type=text]{
     margin-top: 3rem;
     padding-top: .5rem;
     border-top: 1px solid #dedede;
+=======
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  background-color: whitesmoke;
+}
+
+.nav-parent {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-bottom: 2px solid gray;
+}
+
+.logo {
+  color: teal;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  padding: 0.5rem 0;
+}
+.nav-link {
+  text-decoration: none;
+  color: teal;
+  font-weight: bold;
+}
+
+.nav-btn {
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* 
+
+HEADER 
+
+*/
+
+.header-container {
+  background-color: whitesmoke;
+}
+
+.header-parent{
+    padding: 4rem 0;
+}
+
+.header-child {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+ padding: 4rem 0 ;
+}
+
+.header-head {
+  width: 36rem;
+  font-size: 3.5rem;
+  color: teal;
+  text-align: center;
+}
+
+.header-para {
+    width: 37rem;
+    color: gray;
+    text-align: center;
+}
+
+.header-btn{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.donate-btn{
+    background-color: orange;
+    color: teal;
+    font-weight: bold;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.learn-btn{
+ 
+    color: teal;
+    font-weight: bold;
+    padding: .9rem 1.4rem;
+    border-radius: 0.5rem;
+    border: 2px solid teal; 
+    cursor: pointer;
+}
+
+.header-picArea{
+display: flex;
+justify-content: space-between;
+}
+
+.header-picFig{
+width: 50%;
+height: 25rem;
+/* border: 2px solid teal; */
+}
+
+.header-picFig_Two{
+    width: 40%;
+    height: 25rem;
+    /* border: 2px solid teal; */
+}
+
+.header-picImg{
+width: 100%;
+height: 100%;
+border-radius: 2rem 2rem 0 0;
+}
+
+.header-picImg_Two{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.header-card{
+    width: 100%;
+    height: 15rem;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-cardBtn{
+    color: orange;
+    font-weight: bold;
+    padding: .9rem 1.4rem;
+    border-radius: 2rem;
+    border: 2px solid orange; 
+    cursor: pointer;
+    background-color: teal;
+    width: 7rem;
+}
+
+.header-cardPara{
+font-size: 1.5rem;
+color: white;
+width: 40rem;
+text-align: center;
+}
+
+.header-cardParaLink{
+color: orange;
+}
+
+/* 
+
+ANNUAL
+
+*/
+
+.annual-container{
+  background-color: whitesmoke;
+}
+
+.annual-parent{
+display: flex;
+justify-content: space-between;
+padding: 4rem 0;
+}
+
+.annual-fig_parent{
+    width: 40%;
+    height: 20rem;
+    /* border:  2px solid teal; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.annual-childText{
+    width: 55%;
+    height: 20rem;
+    /* border:  2px solid teal; */
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 6rem ;
+}
+
+.annual-fig_one{
+  width: 45%;
+  height: 20rem;
+  border: 2px solid teal;
+  border-radius: .5rem;
+}
+.annual-fig_two{
+  width: 45%;
+  height: 20rem;
+  border: 2px solid teal;
+  margin-top: 2rem;
+  border-radius: .5rem;
+}
+
+.annual-childHead{
+  width: 28rem;
+  font-size: 2.5rem;
+  color: teal;
+  /* text-align: center; */
+}
+
+.annual-childPara{
+  color: gray;
+  width: 30rem;
+  line-height: 1.2rem;
+}
+
+.annual-childBtn{
+  color: white;
+  background-color: teal;
+  font-weight: bold;
+  padding: .9rem 1.4rem;
+  border-radius: 0.5rem;
+  border: 2px solid teal; 
+  cursor: pointer;
+  width: 10rem;
+}
+
+
+/* 
+
+HELP 
+
+*/
+
+.help-container{
+  background-color: whitesmoke;
+  padding: 4rem 0;
+}
+
+.help-parent{
+  width: 100%;
+  height: 30rem;
+  background-color: wheat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.help-childText{
+width: 50%;
+height: 25rem;
+/* border: 2px solid teal; */
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+padding:  2rem;
+}
+
+.help-childImg{
+  width: 45%;
+  height: 25rem;
+  /* border: 2px solid teal; */
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.help-childFig{
+  width: 45%;
+  height: 25rem;
+  border: 2px solid teal;
+}
+
+.help-childFig_two{
+  width: 45%;
+  height: 25rem;
+  /* border: 2px solid teal; */
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+
+.help-childCards{
+  width: 100%;
+  height: 45%;
+  border: 2px solid teal;
+}
+
+.help-header{
+  width: 28rem;
+  font-size: 2.5rem;
+  color: teal;
+}
+
+.help-childPara{
+  color: gray;
+  width: 30rem;
+  line-height: 1.2rem;
+}
+
+.help-btn{
+  color: white;
+  background-color: teal;
+  font-weight: bold;
+  padding: .9rem 1.4rem;
+  border-radius: 0.5rem;
+  border: 2px solid teal; 
+  cursor: pointer;
+  width: 10rem;
+}
+
+
+
+/* 
+
+PROGRAM
+
+*/
+
+.program-container{
+padding: 4rem 0;
+}
+
+.program-parent{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.program-header{
+  font-size: 2rem;
+  color: teal;
+  text-align: center;
+}
+
+.program-para{
+  color: gray;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.program-child_Area{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+gap: 4rem;
+}
+
+.program-child_Card{
+width: 45%;
+height: 15rem;
+border: 2px solid teal;
+>>>>>>> f151dab67756299d1e9e1f28a9dcf0a391c4c246
 }
