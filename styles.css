@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
 }
 
 h1,h2,h3,h4{
@@ -301,12 +301,13 @@ h1,h2,h3,h4{
     background-color: white;
     color: orange;
     cursor: pointer;
-=======
-* {
+}
+
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 .row {
   width: 100%;
@@ -672,7 +673,6 @@ gap: 4rem;
 width: 45%;
 height: 15rem;
 border: 2px solid teal;
->>>>>>> f151dab67756299d1e9e1f28a9dcf0a391c4c246
 }
 /* *{
     margin: 0;
