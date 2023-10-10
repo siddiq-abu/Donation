@@ -201,10 +201,16 @@ h1,h2,h3,h4{
     border-radius: 1rem;
     padding: 2rem 2rem;
     width: 30%;
+    transition: 0.15s;
 }
+
 
 .gi-header-title{
     font-size: 36px;
+}
+
+.gi-card-parent-container:hover{
+    transform: scale(1.1);
 }
 
 .gi-card2{
@@ -301,6 +307,97 @@ h1,h2,h3,h4{
     background-color: white;
     color: orange;
     cursor: pointer;
+<<<<<<< HEAD
+}
+
+/* below are styles for the footer section */
+
+.footer-container{
+    padding: 5rem 0;
+    list-style: none;
+    background-color: whitesmoke;
+}
+
+
+
+.footer-parent-container{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.2;
+}
+
+.footer-parent-container h3{
+    font-size: 18px;
+}
+
+.footer-address{
+    color: #555;
+    margin-bottom: .5rem;
+    font-size: 16px;
+}
+
+.footer-parent-container a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #1a1a1a;
+}
+
+.footer-parent-container  a:hover{
+     color: teal;
+     text-decoration: underline;
+}
+
+.footer-title{
+    margin-bottom: 1rem;
+}
+
+.footer-icons-container{
+    font-size: 1.8rem;
+    color: teal;
+}
+
+.parent-signup-con p{
+  margin-top: .8rem;
+  font-size: 16px;
+  color: #555;
+}
+
+.footer-signup-container{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    height: 2rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-input{
+    padding: .5rem ;
+    font-size: 14px;
+    border-right: none;
+    border: none;
+}
+
+input[type=text]{
+    border: none;
+    outline: none;
+}
+
+.footer-btn{
+    background-color: teal;
+    padding: .5rem .5rem;
+    color: #fff;
+    border: none;
+   
+}
+
+.copyright-p {
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+    margin-top: 3rem;
+    padding-top: .5rem;
+    border-top: 1px solid #dedede;
+=======
 =======
 * {
   margin: 0;
@@ -672,4 +769,5 @@ gap: 4rem;
 width: 45%;
 height: 15rem;
 border: 2px solid teal;
+>>>>>>> f151dab67756299d1e9e1f28a9dcf0a391c4c246
 }
