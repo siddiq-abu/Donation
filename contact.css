@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .title-style {
+    border: 3px solid orange;
+    padding: 0.2rem 0.3rem;
+    border-radius: 50%;
+  }
+  
+  
+  .nav-container {
+      background-color: whitesmoke;
+    }
+    
+    .nav-parent {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem 0;
+      border-bottom: 2px solid gray;
+    }
+    
+    .logo {
+      color: teal;
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      padding: 0.5rem 0;
+    }
+    .nav-link {
+      text-decoration: none;
+      color: teal;
+      font-weight: bold;
+    }
+    
+    .nav-btn {
+      background-color: teal;
+      color: white;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      border: none;
+      cursor: pointer;
+    }
+
+    
+.donate-container {
+    background-image: url(./assert/philippe.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .donate-parent-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .donate-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+    width: 50%;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+  }
+  
+  .donate-title {
+    color: rgb(8, 228, 228);
+    font-size: 38px;
+    text-align: center;
+  }
+  
+  .donate-content {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e6e2e2;
+  }
+  
+  .donate-btn {
+    color: #fff;
+    background-color: orange;
+    border: none;
+    border-radius: 0.1rem;
+    padding: 0.6rem 1.1rem;
+  }
+  
+  .donate-btn:hover {
+    background-color: #fff;
+    color: orange;
+  }
+
+
+/* 
+
+FORM 
+
+*/
+
+#forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    /* background-image: url(./asset/con-two.webp); */
+  }
+  
+  .forms-row {
+    width: 50%;
+    height: 750px;
+    /* border: 2px solid lightblue; */
+    padding: 24px;
+    background-color: whitesmoke;
+    /* box-shadow: #8e92a4 1px 1px 1px 1px; */
+    border-radius: 2rem 0 2rem 0;
+  }
+  
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-bottom: 24px;
+  }
+  
+  label {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  select,
+  textarea {
+    border-radius: 24px;
+    border: 2px solid teal;
+    padding: 12px;
+  }
+  
+  .form-btw {
+    border-radius: 16px;
+    padding: 8px;
+    width: 180px;
+    background-color: teal;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .form-btw:hover {
+    transform: translateY(1px);
+  }
+  
+  .btw-forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .call-container {
+        padding: 3rem 0;
+        background-color: rgb(2, 68, 68);
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+      }
+      
+      .call-parent-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+      }
+      
+      .call-header-container {
+        width: 50%;
+      }
+      
+      .call-header-title {
+        text-transform: capitalize;
+        color: white;
+        font-size: 36px;
+      }
+      
+      .call-content-container {
+        text-transform: capitalize;
+        color: #dedede;
+        font-size: 16px;
+        width: 57%;
+      }
+      
+      .call-button-container {
+        margin-top: 2.5rem;
+      }
+      
+      .call-btn {
+        color: teal;
+        background-color: orange;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 0.2rem;
+      }
+      
+      .call-btn:hover {
+        background-color: white;
+        color: orange;
+        cursor: pointer;
+      }
+
+      /* 
+
+footer 
+
+*/
+
+
+.footer-container {
+    padding: 5rem 0;
+    list-style: none;
+    background-color: whitesmoke;
+  }
+  
+  .footer-parent-container {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.2;
+  }
+  
+  .footer-parent-container h3 {
+    font-size: 18px;
+  }
+  
+  .footer-address {
+    color: #555;
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+  }
+  
+  .footer-parent-container a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #1a1a1a;
+  }
+  
+  .footer-parent-container a:hover {
+    color: teal;
+    text-decoration: underline;
+  }
+  
+  .footer-title {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-icons-container {
+    font-size: 1.8rem;
+    color: teal;
+  }
+  
+  .parent-signup-con p {
+    margin-top: 0.8rem;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .footer-signup-container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    height: 2rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-input {
+    padding: 0.5rem;
+    font-size: 14px;
+    border-right: none;
+    border: none;
+  }
+  
+  input[type="text"] {
+    border: none;
+    outline: none;
+  }
+  
+  .footer-btn {
+    background-color: teal;
+    padding: 0.5rem 0.5rem;
+    color: #fff;
+    border: none;
+  }
+  
+  .copyright-p {
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+    margin-top: 3rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #dedede;
+  }
